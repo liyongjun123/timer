@@ -4,7 +4,6 @@ ARCH=x86_64
 LD=$(CROSS_COMPILE)ld
 CC=$(CROSS_COMPILE)gcc
 
-
 obj-m := my_timer.o
 
 
