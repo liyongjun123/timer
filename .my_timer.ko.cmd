@@ -1,1 +1,0 @@
-cmd_/home/wifi_group/liyongjun/timer/my_timer.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/wifi_group/liyongjun/timer/my_timer.ko /home/wifi_group/liyongjun/timer/my_timer.o /home/wifi_group/liyongjun/timer/my_timer.mod.o ;  true
